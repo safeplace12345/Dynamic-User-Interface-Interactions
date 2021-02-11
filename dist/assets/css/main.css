@@ -1,0 +1,33 @@
+.btn, .option {
+  font-size: 1rem;
+  padding: 5px 20px;
+}
+
+#arrow {
+  margin-left: 5px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 10px solid red;
+  cursor: pointer;
+}
+
+.option {
+  background-color: gray;
+  width: 85px;
+  border-bottom: 1px solid black;
+  display: none;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#arrow:hover {
+  border-top: 10px solid orangered;
+}
+
+.show {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
