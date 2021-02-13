@@ -23,4 +23,4 @@ function write(val){
     console.log(`Hello ${val} !!!`)
 }
 
-exports.dropDown = write;
+module.exports = write;
