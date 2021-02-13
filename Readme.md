@@ -19,8 +19,10 @@ function hideOpts() {
 }
 btn.addEventListener('mouseover', displayOpts);
 btn.addEventListener('mouseleave', hideOpts);
-function write(val){
-    console.log(`Hello ${val} !!!`)
-}
 
-exports.dropDown = write;
+exports.dropDown = function () {
+    return {
+        displayOpts,
+        hideOpts
+    }
+}
